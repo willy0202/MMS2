@@ -11,7 +11,6 @@ cv2.createTrackbar("Alpha", "Blending" , 0,10, nop)
 cv2.createTrackbar("Beta" ,  "Blending", 0,10, nop)
 cv2.createTrackbar("Gamma",  "Blending", 0,10, nop)
 
-
 img1 = cv2.imread('C:\\Users\\student\\Desktop\\33.jpg')
 img2 = cv2.imread('C:\\Users\\student\\Desktop\\44.jpg')
 new_w, new_h = 640, 640
